@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 export const Calculator = () => {
   const [var1, setVar1] = useState(0);
-  const [var2, setVar2] = useState();
+  const [var2, setVar2] = useState(0);
   const [operator, setOperator] = useState();
   const [result, setResult] = useState();
 
